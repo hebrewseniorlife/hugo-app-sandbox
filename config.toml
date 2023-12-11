@@ -4,3 +4,4 @@ title = 'iPad Demonstration'
 disableKinds = [ "taxonomy", "term" ]
 staticDir = "static"
 relativeURLs = true
+publishDir = "docs"
