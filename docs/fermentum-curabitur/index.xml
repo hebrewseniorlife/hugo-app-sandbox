@@ -17,6 +17,16 @@
     </item>
     
     <item>
+      <title>Metus Urna</title>
+      <link>http://example.org/fermentum-curabitur/metus-urna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fermentum-curabitur/metus-urna/</guid>
+      <description>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+ Someone famous in Source Title             </description>
+    </item>
+    
+    <item>
       <title>Nisl Inceptos</title>
       <link>http://example.org/fermentum-curabitur/nisl-inceptos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
