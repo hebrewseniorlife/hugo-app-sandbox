@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home Page on iPad Demonstration</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Home Page on iPad Demonstration</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dictum taciti</title>
+      <link>http://example.org/fermentum-curabitur/dictum-taciti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fermentum-curabitur/dictum-taciti/</guid>
+      <description>   Eleifend suspendisse arcu praesent magna lobortis cras mattis nunc convallis
+  </description>
+    </item>
+    
+    <item>
+      <title>Porttitor fringilla</title>
+      <link>http://example.org/fermentum-curabitur/porttitor-fringilla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fermentum-curabitur/porttitor-fringilla/</guid>
+      <description>Donec Magna Volutpat Porttitor fringilla potenti curabitur habitasse quis sociis suscipit rhoncus, purus vel laoreet litora molestie nibh consequat, quisque proin natoque diam magnis etiam donec. Molestie lacinia bibendum faucibus enim ligula accumsan ornare inceptos penatibus, cras sem aliquet cursus hendrerit elementum aptent.  Sapien sociosqu suspendisse mauris condimentum felis cubilia ultricies habitasse dignissim eget, parturient odio mattis eleifend malesuada aenean risus curabitur augue venenatis, conubia porttitor accumsan cursus phasellus lacus aliquet platea vehicula.</description>
+    </item>
+    
+  </channel>
+</rss>
