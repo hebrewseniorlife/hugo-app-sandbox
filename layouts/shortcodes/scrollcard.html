@@ -1,0 +1,16 @@
+{{ $header := .Get "header" }}
+{{ $caption := .Get "caption" }}
+
+<div class="card boder-primary">
+    {{ if gt ($header | len) 0 }}
+        <h3 class="card-header">{{ $header }}</h3>
+    {{ end }}
+    <div class="card-body" style="max-height: 350px;overflow-y: auto;">
+        <p class="card-text text-muted mx-5">{{ .Inner }}</p>
+    </div>
+    {{ if gt ($caption | len) 0 }}
+        <div class="card-footer">
+            <p class="card-text text-muted"><i>{{ $caption }}</i></p>
+        </div>
+    {{ end }}
+  </div>

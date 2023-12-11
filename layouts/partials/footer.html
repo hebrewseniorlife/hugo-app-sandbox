@@ -1,0 +1,15 @@
+{{ $rootUrl := .Site.GetPage "/" }}
+
+<div class="container fixed-bottom bg-light border-top py-3">
+  <div class="float-start">Marcus Institute for Aging Research, Hebrew SeniorLife
+    <a class="btn opacity-0" href="#">&nbsp;</a>
+  </div>
+  <div class="float-end">
+      {{ if not .IsHome }}
+        {{ if not (.Eq .FirstSection) }}
+          <a class="btn btn-primary" href="{{ .FirstSection.RelPermalink }}">Back</a> 
+        {{ end }}
+      <a class="btn btn-primary mx-1" href="{{ $rootUrl.RelPermalink }}">Home</a>
+    {{ end }}
+  </div>
+</div>

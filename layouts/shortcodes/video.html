@@ -1,0 +1,19 @@
+{{ $id := .Get "id" }}
+
+
+<div class="card">
+    <!-- <h3 class="card-header">Card header</h3> -->
+    <div class="card-body">
+        <!-- <h5 class="card-title">Special title treatment</h5> -->
+        <!-- <h6 class="card-subtitle text-muted">Support card subtitle</h6> -->
+        <iframe src="https://player.vimeo.com/video/{{$id}}?h=add5a02acc" 
+        width="640" 
+        height="360" 
+        frameborder="0" 
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="card-body border-top">
+      <p class="card-text">{{ .Get "caption"}}</p>
+    </div>
+    <!-- <div class="card-footer text-muted"></div> -->
+  </div>
