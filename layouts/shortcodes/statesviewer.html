@@ -3,7 +3,7 @@
 <div class="">
     <table class="table">
         <thead>
-          <tr>
+          <tr class="table-secondary">
             <th scope="col">#</th>
             <th scope="col">State</th>
             <th scope="col">Name</th>
@@ -11,7 +11,7 @@
         </thead>
         <tbody>
            {{ range $index, $state := $states}}
-            <tr>
+            <tr class="table-primary">
                 <th scope="row">{{ add $index 1 }}</th>
                 <td>{{ $state.abbreviation }}</td>
                 <td>{{ $state.name }}</td>
