@@ -5,70 +5,49 @@
     <link>http://example.org/</link>
     <description>Recent content in Home Page on iPad Demonstration</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dictum taciti</title>
       <link>http://example.org/fermentum-curabitur/dictum-taciti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://example.org/fermentum-curabitur/dictum-taciti/</guid>
-      <description>   Eleifend suspendisse arcu praesent magna lobortis cras mattis nunc convallis
-  </description>
+      <description>Eleifend suspendisse arcu praesent magna lobortis cras mattis nunc convallis</description>
     </item>
-    
     <item>
       <title>Metus Urna</title>
       <link>http://example.org/fermentum-curabitur/metus-urna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://example.org/fermentum-curabitur/metus-urna/</guid>
-      <description>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
- Someone famous in Source Title             </description>
+      <description>&#xD;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&#xA;Someone famous in Source Title&#xD;</description>
     </item>
-    
     <item>
       <title>Nisl Inceptos</title>
       <link>http://example.org/fermentum-curabitur/nisl-inceptos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://example.org/fermentum-curabitur/nisl-inceptos/</guid>
-      <description>Elementum taciti duis cum curae vivamus, per urna hac.
-Header Danger card title Nec id natoque facilisis lobortis felis, ut cum interdum.
-   Header Success card title Per ultrices feugiat faucibus, ornare nulla.
-    Header Info card title Dignissim aptent interdum lobortis parturient neque, et elementum augue.
-   Header Warning card title Fermentum lacus ligula placerat dis, sollicitudin per potenti, malesuada at mauris.</description>
+      <description>Elementum taciti duis cum curae vivamus, per urna hac.&#xA;Header&#xD;Danger card title&#xD;Nec id natoque facilisis lobortis felis, ut cum interdum.&#xA;Header&#xD;Success card title&#xD;Per ultrices feugiat faucibus, ornare nulla.&#xA;Header&#xD;Info card title&#xD;Dignissim aptent interdum lobortis parturient neque, et elementum augue.&#xA;Header&#xD;Warning card title&#xD;Fermentum lacus ligula placerat dis, sollicitudin per potenti, malesuada at mauris.</description>
     </item>
-    
     <item>
       <title>Porttitor fringilla</title>
       <link>http://example.org/fermentum-curabitur/porttitor-fringilla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://example.org/fermentum-curabitur/porttitor-fringilla/</guid>
-      <description>Donec Magna Volutpat Porttitor fringilla potenti curabitur habitasse quis sociis suscipit rhoncus, purus vel laoreet litora molestie nibh consequat, quisque proin natoque diam magnis etiam donec. Molestie lacinia bibendum faucibus enim ligula accumsan ornare inceptos penatibus, cras sem aliquet cursus hendrerit elementum aptent.  Sapien sociosqu suspendisse mauris condimentum felis cubilia ultricies habitasse dignissim eget, parturient odio mattis eleifend malesuada aenean risus curabitur augue venenatis, conubia porttitor accumsan cursus phasellus lacus aliquet platea vehicula.</description>
+      <description>Donec Magna Volutpat&#xD;Porttitor fringilla potenti curabitur habitasse quis sociis suscipit rhoncus, purus vel laoreet litora molestie nibh consequat, quisque proin natoque diam magnis etiam donec. Molestie lacinia bibendum faucibus enim ligula accumsan ornare inceptos penatibus, cras sem aliquet cursus hendrerit elementum aptent. Sapien sociosqu suspendisse mauris condimentum felis cubilia ultricies habitasse dignissim eget, parturient odio mattis eleifend malesuada aenean risus curabitur augue venenatis, conubia porttitor accumsan cursus phasellus lacus aliquet platea vehicula.</description>
     </item>
-    
     <item>
       <title>Quis Sagittis</title>
       <link>http://example.org/fermentum-curabitur/quis-sagittis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://example.org/fermentum-curabitur/quis-sagittis/</guid>
-      <description>Bibendum magna condimentum pulvinar tortor et, nostra egestas pellentesque.
-images/quis-sagittis-image-1.jpg Slide 1 Ac egestas donec nec condimentum tellus quam
-  images/quis-sagittis-image-2.jpg Slide 2 Eros fermentum commodo libero id cubilia, ultricies hendrerit fusce.
-  images/quis-sagittis-image-3.jpg Slide 3 Laoreet ultricies lacinia senectus in, eu id.
-    Previous   Next    </description>
+      <description>&#xD;Slide 1&#xD;Ac egestas donec nec condimentum tellus quam&#xA;Slide 2&#xD;Eros fermentum commodo libero id cubilia, ultricies hendrerit fusce.&#xA;Slide 3&#xD;Laoreet ultricies lacinia senectus in, eu id.&#xA;Previous&#xD;Next&#xD;</description>
     </item>
-    
     <item>
       <title>Yum ultrices</title>
       <link>http://example.org/fermentum-curabitur/yum-ultrices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://example.org/fermentum-curabitur/yum-ultrices/</guid>
-      <description>  # State Name    1 AL Alabama  2 AK Alaska  3 AS American Samoa  4 AZ Arizona  5 AR Arkansas  6 CA California  7 CO Colorado  8 CT Connecticut  9 DE Delaware  10 DC District Of Columbia  11 FM Federated States Of Micronesia  12 FL Florida  13 GA Georgia  14 GU Guam  15 HI Hawaii  16 ID Idaho  17 IL Illinois  18 IN Indiana  19 IA Iowa  20 KS Kansas  21 KY Kentucky  22 LA Louisiana  23 ME Maine  24 MH Marshall Islands  25 MD Maryland  26 MA Massachusetts  27 MI Michigan  28 MN Minnesota  29 MS Mississippi  30 MO Missouri  31 MT Montana  32 NE Nebraska  33 NV Nevada  34 NH New Hampshire  35 NJ New Jersey  36 NM New Mexico  37 NY New York  38 NC North Carolina  39 ND North Dakota  40 MP Northern Mariana Islands  41 OH Ohio  42 OK Oklahoma  43 OR Oregon  44 PW Palau  45 PA Pennsylvania  46 PR Puerto Rico  47 RI Rhode Island  48 SC South Carolina  49 SD South Dakota  50 TN Tennessee  51 TX Texas  52 UT Utah  53 VT Vermont  54 VI Virgin Islands  55 VA Virginia  56 WA Washington  57 WV West Virginia  58 WI Wisconsin  59 WY Wyoming     </description>
+      <description>&#xD;#&#xD;State&#xD;Name&#xD;1&#xD;AL&#xD;Alabama&#xD;2&#xD;AK&#xD;Alaska&#xD;3&#xD;AS&#xD;American Samoa&#xD;4&#xD;AZ&#xD;Arizona&#xD;5&#xD;AR&#xD;Arkansas&#xD;6&#xD;CA&#xD;California&#xD;7&#xD;CO&#xD;Colorado&#xD;8&#xD;CT&#xD;Connecticut&#xD;9&#xD;DE&#xD;Delaware&#xD;10&#xD;DC&#xD;District Of Columbia&#xD;11&#xD;FM&#xD;Federated States Of Micronesia&#xD;12&#xD;FL&#xD;Florida&#xD;13&#xD;GA&#xD;Georgia&#xD;14&#xD;GU&#xD;Guam&#xD;15&#xD;HI&#xD;Hawaii&#xD;16&#xD;ID&#xD;Idaho&#xD;17&#xD;IL&#xD;Illinois&#xD;18&#xD;IN&#xD;Indiana&#xD;19&#xD;IA&#xD;Iowa&#xD;20&#xD;KS&#xD;Kansas&#xD;21&#xD;KY&#xD;Kentucky&#xD;22&#xD;LA&#xD;Louisiana&#xD;23&#xD;ME&#xD;Maine&#xD;24&#xD;MH&#xD;Marshall Islands&#xD;25&#xD;MD&#xD;Maryland&#xD;26&#xD;MA&#xD;Massachusetts&#xD;27&#xD;MI&#xD;Michigan&#xD;28&#xD;MN&#xD;Minnesota&#xD;29&#xD;MS&#xD;Mississippi&#xD;30&#xD;MO&#xD;Missouri&#xD;31&#xD;MT&#xD;Montana&#xD;32&#xD;NE&#xD;Nebraska&#xD;33&#xD;NV&#xD;Nevada&#xD;34&#xD;NH&#xD;New Hampshire&#xD;35&#xD;NJ&#xD;New Jersey&#xD;36&#xD;NM&#xD;New Mexico&#xD;37&#xD;NY&#xD;New York&#xD;38&#xD;NC&#xD;North Carolina&#xD;39&#xD;ND&#xD;North Dakota&#xD;40&#xD;MP&#xD;Northern Mariana Islands&#xD;41&#xD;OH&#xD;Ohio&#xD;42&#xD;OK&#xD;Oklahoma&#xD;43&#xD;OR&#xD;Oregon&#xD;44&#xD;PW&#xD;Palau&#xD;45&#xD;PA&#xD;Pennsylvania&#xD;46&#xD;PR&#xD;Puerto Rico&#xD;47&#xD;RI&#xD;Rhode Island&#xD;48&#xD;SC&#xD;South Carolina&#xD;49&#xD;SD&#xD;South Dakota&#xD;50&#xD;TN&#xD;Tennessee&#xD;51&#xD;TX&#xD;Texas&#xD;52&#xD;UT&#xD;Utah&#xD;53&#xD;VT&#xD;Vermont&#xD;54&#xD;VI&#xD;Virgin Islands&#xD;55&#xD;VA&#xD;Virginia&#xD;56&#xD;WA&#xD;Washington&#xD;57&#xD;WV&#xD;West Virginia&#xD;58&#xD;WI&#xD;Wisconsin&#xD;59&#xD;WY&#xD;Wyoming&#xD;</description>
     </item>
-    
   </channel>
 </rss>
