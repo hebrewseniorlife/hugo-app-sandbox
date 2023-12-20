@@ -3,7 +3,36 @@
     <h2>{{ .Site.Title }}</h2>
   </div>
   <div class="float-end">
-    <span class="fs-6"><i>type:</i> {{ .Kind }}</span><br/>
-    <span class="fs-6"><i>key:</i> {{ .TranslationKey }}</span>
+    <div class="row g-2 gx-3 p-1 float-end">
+      <div class="col-auto">
+        {{ partial "partials/details.html" . }}
+      </div>
+      <div class="col-auto form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="textOnlySwitch" onclick="toggleTextOnly(this)">
+        <label class="form-check-label" for="textOnlySwitch">Text Only</label>
+      </div>
+    </div>   
+    <script>
+      function toggleTextOnly(toggle) {
+        var main    = $("#mainContent");   
+
+        if (toggle.checked) {
+          var article = new Readability(document.cloneNode(true)).parse();
+
+          document.readable = {
+            original: main.html(),
+            article: article
+          };
+          console.log(article);
+
+          main.html(article.content);
+        }
+        else {
+          main.html(document.readable.original)
+        }
+        
+        return void(0);
+      }
+  </script>
   </div>
 </div>

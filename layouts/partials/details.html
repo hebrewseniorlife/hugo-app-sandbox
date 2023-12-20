@@ -1,0 +1,15 @@
+  <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#pageDetails" aria-controls="pageDetails">
+    Page Details
+  </button>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="pageDetails" aria-labelledby="pageDetailsLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="pageDetailsLabel">Page Details</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="fs-6 text-start">
+        <i>type:</i> {{ .Kind }}</code><br/>
+        <i>key:</i> {{ .TranslationKey }}
+      </div>
+    </div>
+  </div>
