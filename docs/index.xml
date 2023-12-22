@@ -43,6 +43,13 @@
       <description>&#xD;Slide 1&#xD;Ac egestas donec nec condimentum tellus quam&#xA;Slide 2&#xD;Eros fermentum commodo libero id cubilia, ultricies hendrerit fusce.&#xA;Slide 3&#xD;Laoreet ultricies lacinia senectus in, eu id.&#xA;Previous&#xD;Next&#xD;</description>
     </item>
     <item>
+      <title>Vemos Dia</title>
+      <link>http://example.org/vemos-dia/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/vemos-dia/index.json</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Yum ultrices</title>
       <link>http://example.org/fermentum-curabitur/yum-ultrices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
