@@ -5,3 +5,8 @@ disableKinds = [ "taxonomy", "term" ]
 staticDir = "static"
 relativeURLs = true
 publishDir = "docs"
+uglyURLs = false
+
+[params]
+    homePageFilename = ""
+#    homePageFilename = "index.html" <-- CHANGE if using uglyURLs
