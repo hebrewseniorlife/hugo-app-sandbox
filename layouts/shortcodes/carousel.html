@@ -1,14 +1,16 @@
 {{ $items := unmarshal .Inner }}
-{{ $rootUrl := .Site.GetPage "/" }}
+{{ $currentPage := .Page }}
 
 <div class="container">
   <div id="carouselControl" class="carousel slide">
     <div class="carousel-inner">
       {{ range $index, $item := $items}}
         {{ $is_active := cond (eq $index 0) "active" ""}}
+        {{ $itemResource := $currentPage.Resources.GetMatch $item.path }}
+        
         <div class="carousel-item {{ $is_active }}">
             <div style="height: 400px; overflow: hidden;">
-              <img src="{{ $item.path }}" class="w-100" alt="..."> 
+              <img src="{{ $itemResource.RelPermalink }}" class="w-100" alt="..."> 
             </div>
             <div class="p-2 bg-primary text-center">
               <h5>Slide {{ add $index 1 }}</h5>

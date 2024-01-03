@@ -7,7 +7,7 @@
         {{ end }}
         <div class="list-group d-grid gap-2 border-0">
             {{ range .Site.Sections }}
-                <a class="list-group-item py-3 gy-3 bg-primary h6" href="{{ .Slug }}">
+                <a class="list-group-item py-3 gy-3 bg-primary h6" href="{{ .RelPermalink }}">
                      <span class="icon-link icon-link-hover text-body" 
                             style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);">
                       {{ partial "icon" (dict "type" "collection") }} {{ .LinkTitle }} - <i>{{ .Params.subtitle }}</i>
