@@ -1,7 +1,13 @@
 {{ $items := unmarshal .Inner }}
 {{ $currentPage := .Page }}
+{{ $layout := .Get "layout"}}
 
-<div class="container">
+
+{{ if eq (lower $layout) ("fullscreen") }}
+  <div class="container" style="margin:0px; max-width: 100%; padding: 0px">
+{{ else }}
+  <div class="container">
+{{ end }}
   <div id="carouselControl" class="carousel slide">
     <div class="carousel-inner">
       {{ range $index, $item := $items}}
@@ -9,21 +15,28 @@
         {{ $itemResource := $currentPage.Resources.GetMatch $item.path }}
         
         <div class="carousel-item {{ $is_active }}">
+          {{ if eq (lower $layout) ("fullscreen") }}
+            <div style="">
+              <img src="{{ $itemResource.RelPermalink }}" style="max-width: 100%; max-height: 100%;" alt="...">
+            </div>
+          {{ else }}
+            {{/*  Fixxed height is display style by default  */}}
             <div style="height: 400px; overflow: hidden;">
               <img src="{{ $itemResource.RelPermalink }}" class="w-100" alt="..."> 
             </div>
-            <div class="p-2 bg-primary text-center">
-              <h5>Slide {{ add $index 1 }}</h5>
+          {{ end }}
+            <div class="carousel-caption text-center">
+              <h4>Slide {{ add $index 1 }}</h4>
               <p>{{ $item.caption }}</p>
             </div>         
         </div>
     {{ end }}      
     </div>
-    <button class="carousel-control-prev bg-primary" style="height:100px; margin-top:150px" type="button" data-bs-target="#carouselControl" data-bs-slide="prev">
+    <button class="carousel-control-prev bg-primary" style="" type="button" data-bs-target="#carouselControl" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="">Previous</span>
     </button>
-    <button class="carousel-control-next bg-primary" style="height:100px; margin-top:150px" type="button" data-bs-target="#carouselControl" data-bs-slide="next">
+    <button class="carousel-control-next bg-primary" style="" type="button" data-bs-target="#carouselControl" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="">Next</span>
     </button>

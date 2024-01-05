@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+    {{ partial "partials/shared/head.html" . }}
+    <body class="overflow-hidden">
+        <div class="overflow-scroll">
+            <div style="padding:0; max-width: 100%;" id="learningModuleContent">
+                {{ block "main" .}}
+                ~ No Content ~
+                {{ end }}
+            </div>
+        </div>
+        {{ partial "partials/footer.html" . }}
+        {{ partial "partials/shared/scripts.html" . }}
+    </body>
+</html>

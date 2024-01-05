@@ -1,13 +1,13 @@
 ---
 title: "Euismod Orci"
 subtitle: "Mi facilisis porta arcu sagittis magna"
-layout: "headless"
-type: "fullscreen"
+layout: "titleless"
+type: "learning-module"
 keywords:
     - mixed
 ---
 
-{{< carousel >}}
+{{< carousel layout="fullscreen" >}}
 [
     {
         "path" : "euismod-orci-image-1.jpg",
