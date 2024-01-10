@@ -8,7 +8,9 @@
         <div class="list-group gap-2 border-0">
             {{ range .Pages }}
                 {{ $keywords := delimit .Keywords ";"}}
-                <a class="list-group-item py-3 gy-3 bg-primary h6" href="{{ .RelPermalink }}">
+                {{ $link := cond (isset .Params "redirect_url") .Params.redirect_url .RelPermalink }}
+                {{ $target := cond (isset .Params "redirect_url") "_new" ""}}
+                <a class="list-group-item py-3 gy-3 bg-primary h6" href="{{ $link }}" target="{{ $target }}">
                     {{ if .IsSection }}
                     <span class="icon-link icon-link-hover" 
                         style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);">
