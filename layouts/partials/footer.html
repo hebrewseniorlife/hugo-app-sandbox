@@ -3,11 +3,15 @@
     <a class="btn opacity-0" href="#">&nbsp;</a>
   </div>
   <div class="float-end">
+
       {{ if not .IsHome }}
         {{ if not (.Eq .FirstSection) }}
           <a class="btn btn-primary" href="{{ .FirstSection.RelPermalink }}">Back</a> 
         {{ end }}
-      <a class="btn btn-primary mx-1" href="{{ .Site.Home.RelPermalink }}{{ .Site.Params.homePageFilename}}">Home</a>
+        {{ if ne (lower .Layout) ("exit") }}
+          <a class="btn btn-primary mx-1" href="{{ .Site.Home.RelPermalink }}{{ .Site.Params.homePageFilename}}">Home</a>
+          <a class="btn btn-secondary mx-1" href="/exit/">Exit Session</a>
+        {{ end }}
     {{ end }}
   </div>
 </div>

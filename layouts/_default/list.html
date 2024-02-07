@@ -17,12 +17,14 @@
             <hr/>
             {{ $childPages := where .Pages ".IsPage" "eq" true }}
             {{ range $childPages }}
+                {{ if ne (lower .Layout) ("exit") }}
                 <a class="list-group-item py-3 gy-3 bg-primary h6" href="{{ .RelPermalink }}">
                      <span class="icon-link icon-link-hover text-body" 
                             style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);">
                       {{ partial "icon" (dict "type" "node") }} {{ .LinkTitle }} - <i>{{ .Params.subtitle }}</i>
                     </span>
-                </a>          
+                </a>  
+                {{ end }}        
             {{ end }}            
           </div>        
     </div>
