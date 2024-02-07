@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exit Session</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="../bootstrap/bootstrap.min.css" rel="stylesheet">
+</head>
+    <body class="overflow-hidden">
+        <div class="container-fluid fixed-top bg-light border-bottom" aria-hidden="true">
+  <div class="float-start">
+    <h2>iPad Demonstration</h2>
+  </div>
+  <div class="float-end">
+    <div class="row g-2 gx-3 p-1 float-end">
+      <div class="col-auto">
+          <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#pageDetails" aria-controls="pageDetails">
+    Page Details
+  </button>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="pageDetails" aria-labelledby="pageDetailsLabel" aria-hidden="true">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="pageDetailsLabel">Page Details</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="fs-6 text-start">
+        <i>type:</i> page</code><br/>
+        <i>key:</i> page/exit<br/>
+        <i>layout:</i> exit<br/>
+      </div>
+    </div>
+  </div>
+      </div>
+      <div class="col-auto form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="textOnlySwitch" onclick="toggleTextOnly(this)">
+        <label class="form-check-label" for="textOnlySwitch">Text Only</label>
+      </div>
+    </div>   
+    <script>
+      function toggleTextOnly(toggle) {
+        var main    = $("#mainContent");   
+
+        if (toggle.checked) {
+          var article = new Readability(document.cloneNode(true)).parse();
+
+          document.readable = {
+            original: main.html(),
+            article: article
+          };
+          console.log(article);
+
+          main.html(article.content);
+        }
+        else {
+          main.html(document.readable.original)
+        }
+        
+        return void(0);
+      }
+  </script>
+  </div>
+</div>
+        <div class="overflow-scroll vh-100">
+            <div class="container" style="margin-top: 75px; margin-bottom: 75px;">
+                <h2 class="text-primary">Exit Session</h2>
+                <div class="col-lg-8 col-md-7 col-sm-6" id="mainContent">
+                    
+exit????
+    <p class="lead">
+        <p>Lacus ligula fames tristique in duis purus hendrerit, ultrices sapien cubilia auctor vulputate dictumst integer ante, nullam urna dictum nostra magnis rhoncus. Elementum sed ac vitae tortor maecenas, integer cursus eu conubia luctus, natoque potenti dui dis. Ultricies vulputate commodo himenaeos at euismod quam cursus phasellus nascetur, vel sapien accumsan hac cum habitasse sem curae fusce vitae, pellentesque mi natoque enim ad scelerisque netus pulvinar.</p>
+
+    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid fixed-bottom bg-light border-top py-3" aria-hidden="true">
+  <div class="float-start">Marcus Institute for Aging Research, Hebrew SeniorLife
+    <a class="btn opacity-0" href="#">&nbsp;</a>
+  </div>
+  <div class="float-end">
+      
+        
+          <a class="btn btn-primary" href="../">Back</a> 
+        
+      <a class="btn btn-primary mx-1" href="../">Home</a>
+    
+  </div>
+</div>
+        <script src="https://kit.fontawesome.com/c57bb96838.js" crossorigin="anonymous" type="application/json"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mozilla/readability@0.5.0/Readability.min.js"></script>
+    </body>
+</html>
