@@ -1,7 +1,15 @@
 {
+  "name": "IDE for Hugo Editors",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {},
     "ghcr.io/devcontainers-contrib/features/netlify-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.colorTheme": "Default Dark Modern"
+      }
+    }
   }
 }
